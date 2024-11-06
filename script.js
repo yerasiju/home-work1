@@ -75,31 +75,31 @@ function updateImagesBasedOnHover(hoveredDirection) {
     } else if (hoveredDirection === "bottom-left") {
       if (direction === "bottom-left") img.src = "assets/front.jpeg";
       if (direction === "front") img.src = "assets/top-right.jpeg";
-      if (direction === "top-left") img.src = "assets.top.jpeg";
-      if (direction === "top") img.src = "assets.top-right.jpeg";
-      if (direction === "top-right") img.src = "assets.top-right.jpeg";
-      if (direction === "left") img.src = "assets.top.jpeg";
-      if (direction === "right") img.src = "assets.top-right.jpeg";
-      if (direction === "bottom") img.src = "assets.right.jpeg";
-      if (direction === "bottom-right") img.src = "assets.right.jpeg";
+      if (direction === "top-left") img.src = "assets/top.jpeg";
+      if (direction === "top") img.src = "assets/top-right.jpeg";
+      if (direction === "top-right") img.src = "assets/top-right.jpeg";
+      if (direction === "left") img.src = "assets/top.jpeg";
+      if (direction === "right") img.src = "assets/top-right.jpeg";
+      if (direction === "bottom") img.src = "assets/right.jpeg";
+      if (direction === "bottom-right") img.src = "assets/right.jpeg";
     } else if (hoveredDirection === "bottom") {
       if (direction === "bottom") img.src = "assets/front.jpeg";
       if (direction === "front") img.src = "assets/top.jpeg";
       if (direction === "top-left") img.src = "assets/top-left.jpeg";
-      if (direction === "top") img.src = "assets.top.jpeg";
-      if (direction === "top-right") img.src = "assets.top-right.jpeg";
-      if (direction === "left") img.src = "assets.top-left.jpeg";
-      if (direction === "right") img.src = "assets.top-right.jpeg";
+      if (direction === "top") img.src = "assets/top.jpeg";
+      if (direction === "top-right") img.src = "assets/top-right.jpeg";
+      if (direction === "left") img.src = "assets/top-left.jpeg";
+      if (direction === "right") img.src = "assets/top-right.jpeg";
       if (direction === "bottom-left") img.src = "assets/left.jpeg";
       if (direction === "bottom-right") img.src = "assets/right.jpeg";
     } else if (hoveredDirection === "bottom-right") {
       if (direction === "bottom-right") img.src = "assets/front.jpeg";
       if (direction === "front") img.src = "assets/top-left.jpeg";
       if (direction === "top-left") img.src = "assets/top-left.jpeg";
-      if (direction === "top") img.src = "assets.top-left.jpeg";
-      if (direction === "top-right") img.src = "assets.top.jpeg";
-      if (direction === "left") img.src = "assets.top-left.jpeg";
-      if (direction === "right") img.src = "assets.top.jpeg";
+      if (direction === "top") img.src = "assets/top-left.jpeg";
+      if (direction === "top-right") img.src = "assets/top.jpeg";
+      if (direction === "left") img.src = "assets/top-left.jpeg";
+      if (direction === "right") img.src = "assets/top.jpeg";
       if (direction === "bottom-left") img.src = "assets/left.jpeg";
       if (direction === "bottom") img.src = "assets/left.jpeg";
     }
